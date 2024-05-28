@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea.Lib", "src\ShapeArea.Lib\ShapeArea.Lib.csproj", "{FB61D806-A737-4876-851C-33FF06BA82E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeArea.Lib", "src\ShapeArea.Lib\ShapeArea.Lib.csproj", "{FB61D806-A737-4876-851C-33FF06BA82E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea.UnitTests", "tests\ShapeArea.UnitTests\ShapeArea.UnitTests.csproj", "{00D5645D-B08B-43B3-B354-C9A56DA12BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3F230C8-DAED-4CD0-BEA1-15D2F008FC5E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{FB61D806-A737-4876-851C-33FF06BA82E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB61D806-A737-4876-851C-33FF06BA82E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB61D806-A737-4876-851C-33FF06BA82E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D5645D-B08B-43B3-B354-C9A56DA12BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D5645D-B08B-43B3-B354-C9A56DA12BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D5645D-B08B-43B3-B354-C9A56DA12BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D5645D-B08B-43B3-B354-C9A56DA12BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
